@@ -1,6 +1,6 @@
 {
   "index_name": "nxu-tzgg-search",
-  "start_urls": ["http://nxu-tzsearch.thisish.cn/api/data/1"],
+  "sitemap_urls": ["https://nxu-tzsearch.thisish.cn/example.xml"],
   "rateLimit": 8,
   "maxDepth": 10,
   "selectors": {
