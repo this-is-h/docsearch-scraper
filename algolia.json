@@ -9,7 +9,7 @@
       "defaultValue": "Documentation"
     },
     "lvl1": ".ar_article_box h5",
-    "content": "ar_article p, .ar_article span"
+    "content": "ar_article p, .ar_article span",
     "lang": {
       "selector": "/html/@lang",
       "type": "xpath",
