@@ -5,12 +5,12 @@
     "maxDepth": 10,
     "selectors": {
         "lvl0": {
-            "selector": "//div[@class=\"ar_article_box\"]//h5",
+            "selector": "//div[@class=\"ar_article_box\"]/h5",
             "type": "xpath",
             "global": true
         },
         "lvl1": {
-            "selector": "//div[@class=\"ar_article\"]//*[contains(@style, 'font-family:黑体')]",
+            "selector": "//div[@class=\"ar_article\"]/*[contains(@style, 'font-family:黑体')]",
             "type": "xpath",
             "global": true
         },
@@ -30,12 +30,12 @@
             "global": true
         },
         "text": {
-            "selector": "//div[@class=\"ar_article\"]//p",
+            "selector": "//div[@class=\"ar_article\"]//div/p",
             "type": "xpath",
             "global": true
         },
         "content": {
-            "selector": "//div[@class=\"ar_article\"]//p//span",
+            "selector": "//div[@class=\"ar_article\"]//p/span",
             "type": "xpath",
             "global": true
         }
