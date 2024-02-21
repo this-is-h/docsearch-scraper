@@ -4,7 +4,11 @@
     "rateLimit": 8,
     "maxDepth": 10,
     "selectors": {
-        "lvl0": ".ar_article_box h5",
+        "lvl0": {
+            "selector": "//div[@class=\".ar_article_box\"]//h5",
+            "type": "xpath",
+            "global": true
+        },
         "lvl1": {
             "selector": "//div[@class=\"ar_article\"]//*[contains(@style, 'font-family:黑体')]",
             "type": "xpath",
