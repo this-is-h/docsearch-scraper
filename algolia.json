@@ -1,6 +1,6 @@
 {
     "index_name": "nxu-tzgg-search",
-    "start_urls": ["https://tuanwei.nxu.edu.cn/tzgg.htm"],
+    "start_urls": ["https://tuanwei.nxu.edu.cn/info/1003/1022.htm"],
     "rateLimit": 8,
     "maxDepth": 10,
     "selectors": {
