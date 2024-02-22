@@ -5,10 +5,7 @@
     "maxDepth": 10,
     "selectors": {
         "lvl0": ".ar_article_box > h5",
-        "lvl1": {
-            "selector": ".bbt span:first-child",
-            "global": true
-        },
+        "lvl1": ".bbt span:first-child",
         "lvl2": ".bbt span:nth-child(2)",
         "lvl3": ".ar_article span[style*='黑体']",
         "lvl4": "a[href*='_']",
